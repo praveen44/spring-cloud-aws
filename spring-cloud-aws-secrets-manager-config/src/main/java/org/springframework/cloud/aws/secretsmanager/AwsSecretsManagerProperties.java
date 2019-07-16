@@ -47,7 +47,7 @@ public class AwsSecretsManagerProperties {
 	@Pattern(regexp = "(/[a-zA-Z0-9.\\-_]+)*")
 	private String prefix = "/secret";
 
-	@NotEmpty
+	@NotNull
 	private String defaultContext = "application";
 
 	@NotNull
